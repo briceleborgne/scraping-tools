@@ -4,6 +4,7 @@ Quelques outils que j'utilise pour scraper, liste actualisée au fil du temps.
 
 **Scripts Python** :
 * _twitter.py_ : permet de vérifier si les comptes Twitter d'une liste sont certifiés + aspire le nombre d'abonnés
+* _legifrance.py_ : permet de vérifier si un texte sur Légifrance (décrets, arrêtés... dont les urls sont à indiquer dans une liste), comprend des mots définis.
 
 **Sitemaps pour l'extension Web Scraper** :
 * _gouvernement.json_ : aspire la liste des membres des cabinets ministériels de tout le gouvernement, à partir du [site du gouvernement](https://www.gouvernement.fr/composition-du-gouvernement), avec nom, fonction, date de nomination au Journal officiel, et ministère de rattachement.
