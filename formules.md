@@ -20,3 +20,10 @@ Donne, après nettoyage :
 A | Premier ministre, Député, Ministre de blabla  
 B | Président, Député  
 C | Député, Ministre de blabla, Député  
+
+CMD : 
+
+* Pour filtrer un gros csv à partir d'une string exacte :
+awk -F ','  'BEGIN {OFS=","} { if (toupper($5) == "blabla")  print }' monfichier.csv
+avec ',' pour le séparateur du csv, $5 pour le numéro de colonne, et "blabla" pour la string.
+
