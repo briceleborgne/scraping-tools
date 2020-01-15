@@ -28,3 +28,8 @@ CMD :
 awk -F ','  'BEGIN {OFS=","} { if (toupper($5) == "blabla")  print }' monfichier.csv  
 avec ',' pour le séparateur du csv, $5 pour le numéro de colonne, et "blabla" pour la string.  
 
+
+
+
+
+javascript:(m=>{m&&(window.location=m.slice(-1)[0])})(document.title.match(/(\bhttps?:\/\/t\.co\/[\w\-\.as]+)/g))
