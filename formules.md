@@ -5,6 +5,8 @@ ou en FR : =SI(ESTNUM(TROUVE("lemot";A2));"oui";"non")
 
 * Isoler le dernier mot de la cellule : =TRIM(RIGHT(SUBSTITUTE(A2;" ";REPT(" ";100));100))
 
+* Code insee : =SI(NBCAR(C2)=1;CONCATENER(A2;"00";C2);SI(NBCAR(C2)=2;CONCATENER(A2;"0";C2);SI(NBCAR(C2)=3;CONCATENER(A2;C2))))
+
 
 * Créer l'équivalent d'un TCD pour concaténer des cellules quand une cellule correspondante est identique (avec une virgule entre les strings) : =IF(A2<>A1; B2; C1 & "," & B2)  
 Exemple :   
