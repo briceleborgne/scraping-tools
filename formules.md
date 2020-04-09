@@ -32,6 +32,17 @@ avec ',' pour le séparateur du csv, $5 pour le numéro de colonne, et "blabla" 
 
 
 
-
+* Origin Video
 
 javascript:(m=>{m&&(window.location=m.slice(-1)[0])})(document.title.match(/(\bhttps?:\/\/t\.co\/[\w\-\.as]+)/g))
+
+* INSEE
+=DROITE(GAUCHE($A2;81);1)
+=GAUCHE(DROITE($A2;NBCAR($A2)-81);8)
+=GAUCHE(DROITE($A2;NBCAR($A2)-89);5)
+=GAUCHE(DROITE($A2;NBCAR($A2)-94);30)
+=GAUCHE(DROITE($A2;NBCAR($A2)-124);30)
+=GAUCHE(DROITE($A2;NBCAR($A2)-154);8)
+=GAUCHE(DROITE($A2;NBCAR($A2)-162);5)
+=GAUCHE(DROITE($A2;NBCAR($A2)-167);9)
+
